@@ -1,14 +1,14 @@
-<mat-toolbar>
+<mat-toolbar (click)="sidenav.toggle()">
   CV Fabrice Berthet
 </mat-toolbar>
 
 <mat-sidenav-container>
 
-  <mat-sidenav mode="side" opened>
+  <mat-sidenav #sidenav="matSidenav">
   sidenav
   </mat-sidenav>
 
-  <mat-sidenav-content class="mat-elevation-z4">
+  <mat-sidenav-content>
     content
     <router-outlet></router-outlet>
   </mat-sidenav-content>
