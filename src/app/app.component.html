@@ -1,6 +1,11 @@
-<mat-toolbar (click)="sidenav.toggle()">
+<!-- <mat-toolbar (click)="sidenav.toggle()">
   CV Fabrice Berthet
-</mat-toolbar>
+</mat-toolbar> -->
+
+<div class="toolbar" (click)="sidenav.toggle()">
+  <fa-icon class="bars"  [icon]="faBars" *ngIf="sidenav.mode === 'over'"></fa-icon>
+menu
+</div>
 
 <mat-sidenav-container>
 

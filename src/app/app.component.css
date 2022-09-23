@@ -1,10 +1,11 @@
-mat-toolbar{
+.toolbar{
     background-color: #004a9f;
     color: white;
-    width: calc(80%);
+    width: 80%;
 border-radius: 10px;
     margin: 0 auto;
     margin-top: 10px;
+    display: none;
 }
 
 mat-sidenav-container{
@@ -35,17 +36,14 @@ mat-sidenav-content{
 @media only screen and (max-width: 991px) {
     mat-sidenav-content{
         margin-left: 0 !important;
-        min-height:78vh;
     }
 
-    .article-content{
-        margin-left: 0 ;
+    .toolbar{
+        display: block;
 
     }
     mat-sidenav-container{
-        background: transparent;
-        margin-bottom: 10px;
-        
+        /* margin-bottom: 10px; */
     }
 
 }
