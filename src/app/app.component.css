@@ -13,8 +13,7 @@
     height: 2rem;
  margin-left: 5px;
     padding: 0 1rem;
-    /* padding-top: 4px; */
-    background-color: darkseagreen;;
+    background-color:cornflowerblue;
     border-radius: 10px;
     width: max-content;
     display: none;
@@ -38,7 +37,8 @@ position: relative;
 
 mat-sidenav{
     width: 250px;
-    background-color:darkseagreen; 
+    /* background-color:darkseagreen;  */
+    background-color:cornflowerblue;
     border-radius: 10px;
     padding: 10px;
     border-right:none;
@@ -60,7 +60,8 @@ height: auto;
 margin: auto;
 display: flex;
 margin-top: 1.5rem;
-border-radius: 50%;
+margin-bottom: 1.5rem;
+border-radius: 5px;
 }
 .name{
 
@@ -89,7 +90,7 @@ mat-icon{
 }
 
 mat-divider{
-    margin-top: 16px;
+    
     margin-bottom: 16px;
 }
 
