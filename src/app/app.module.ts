@@ -10,11 +10,15 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon'
 import {MatDividerModule} from '@angular/material/divider';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { HomeComponent } from './pages/home/home.component';
+import { ProjetsComponent } from './pages/projets/projets.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    ProjetsComponent
   ],
   imports: [
     BrowserModule,
