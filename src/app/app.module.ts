@@ -12,13 +12,15 @@ import {MatIconModule} from '@angular/material/icon'
 import {MatDividerModule} from '@angular/material/divider';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HomeComponent } from './pages/home/home.component';
-import { ProjetsComponent } from './pages/projets/projets.component'
+import { ProjetsComponent } from './pages/projets/projets.component';
+import { ContactComponent } from './pages/contact/contact.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ProjetsComponent
+    ProjetsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
