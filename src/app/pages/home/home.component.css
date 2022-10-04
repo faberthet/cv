@@ -1,0 +1,33 @@
+
+
+.homecontent{
+    padding: 0 50px;
+  
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.pdf{
+margin-top: 75px;
+}
+.pdf a{
+    display: block;
+    width: max-content;
+    font-size: 1.5rem;
+    background-color: cornflowerblue;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    box-shadow: 0 5px 1px rgb(15, 15, 15);
+    transition: 0.2s ease;
+}
+.pdf a:hover{
+    background-color:royalblue;
+}
+a{
+    color: inherit; 
+    text-decoration: inherit;
+}
