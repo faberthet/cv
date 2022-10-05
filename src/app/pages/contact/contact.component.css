@@ -1,3 +1,35 @@
 .contactcontent{
-    padding: 20px 50px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+
+}
+.contactcadre{
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px 50px;
+    margin-top: 100px;
+}
+.contactcadre > .item{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.trait{
+    height: 1px;
+    background-color: black;
+    width: 50%;
+    margin: 25px auto;
+    margin-bottom: 10px;
+}
+h1{
+    width: max-content;
+    margin: 10px auto;
+}
+mat-icon{
+    margin-right:  40px;
 }
