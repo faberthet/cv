@@ -12,16 +12,22 @@ table{
     width: 65%;
 }
 td{
+    padding-bottom: 50px;
     
 }
+
 .rightcol{
 width: 200px;
 text-align: center;
 }
+
 .leftcol{
-    
+
 }
 td > img{
     width: 100%;
     height: auto;
+}
+.mot{
+    width: 50%;
 }
