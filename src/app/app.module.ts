@@ -13,14 +13,16 @@ import {MatDividerModule} from '@angular/material/divider';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HomeComponent } from './pages/home/home.component';
 import { ProjetsComponent } from './pages/projets/projets.component';
-import { ContactComponent } from './pages/contact/contact.component'
+import { ContactComponent } from './pages/contact/contact.component';
+import { CompetencesComponent } from './pages/competences/competences.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ProjetsComponent,
-    ContactComponent
+    ContactComponent,
+    CompetencesComponent
   ],
   imports: [
     BrowserModule,
