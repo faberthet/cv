@@ -1,33 +1,42 @@
 .projectcontent{
-    padding: 20px 50px;
+    /* padding: 20px 50px; */
     width: 100%;
 }
-
-table td{
-    /* border: 1px solid black; */
-    
-}
-table{
-    border-collapse: collapse;
-    width: 65%;
-}
-td{
-    padding-bottom: 50px;
-    
+.projectcontent > div{
+    display: flex;
+    width: 100%;
+    margin: 15px 0;
 }
 
-.rightcol{
-width: 200px;
+ .textdiv{
+width: 50%;
 text-align: center;
 }
+.imgdiv{
+width: 50%;
+text-align: center;
+} 
 
-.leftcol{
+img{
+width: 300px;
 
 }
-td > img{
-    width: 100%;
-    height: auto;
+
+@media only screen and (max-width: 1598px) {
+    img{
+        width: 250px;
+    }
 }
-.mot{
-    width: 50%;
+@media only screen and (max-width: 1280px) {
+    .projectcontent > div{
+        flex-direction: column;
+    }
+    .textdiv{
+        width: 100%;
+    }
+    .imgdiv{
+        width: 100%;
+        margin-top: 15px;
+    }
+
 }
