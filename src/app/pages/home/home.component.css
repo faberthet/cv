@@ -2,17 +2,44 @@
 
 .homecontent{
     padding: 0 50px;
-  
+  background: linear-gradient(115deg, #013979 50%, transparent 100%);
+  height: calc(100% - 100px);
+  /* width: 100%; */
+  padding-top: 100px;
+  padding-left: 100px;
+  position: relative;
+  color:deepskyblue
+}
+.imgback{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: url('src/assets/images/clavier.jpg'); 
+    background-size: cover;
+    position: absolute;
+    top:0;
+    left:0;
+    filter: brightness(40%);
 }
 
 h1{
     text-transform: uppercase;
-    font-size: 3rem;
-    font-weight: 400;
+    font-size: 4rem;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 2px black;
+}
+h2{
+font-size: 1.8rem;
+text-shadow: 2px 2px 2px black;
+font-weight: 500;
+color: cornflowerblue;
 }
 
 .pdf{
 margin-top: 75px;
+color: black;
 }
 .pdf a{
     display: block;
