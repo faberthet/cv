@@ -1,0 +1,33 @@
+<div class="years">
+    <span>Année d'expérience</span>
+    <span>1 an</span>
+    <span>2 ans</span>
+</div>
+    <h2> Langages</h2>
+    <div *ngFor="let langage of langages"> 
+        <ul>
+            <li>{{langage.value}}</li>
+            <div class="progress" [style.width]="'{{langage.xp}}%'"></div>
+        </ul>
+    </div>
+    <!-- <ul> 
+        <li>Java</li>
+        <li>Javascript</li>
+        <li>Typescript</li>
+        <li>css</li>
+        <li>SQL</li>
+    </ul> -->
+    <h2>Frameworks</h2>   
+    <div *ngFor="let framework of frameworks"> 
+        <ul>
+            <li>{{framework.value}}</li>
+            <div class="progress" [style.width]="'{{framework.xp}}%'"></div>
+        </ul>
+    </div>
+    <!-- <ul>
+        <li>Angular</li>
+        <li>Spring Boot</li>
+        <li>Material</li>
+        <li>Bootstrap</li>
+    </ul> -->
+

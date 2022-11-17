@@ -14,7 +14,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HomeComponent } from './pages/home/home.component';
 import { ProjetsComponent } from './pages/projets/projets.component';
 import { ContactComponent } from './pages/contact/contact.component';
-import { CompetencesComponent } from './pages/competences/competences.component'
+import { CompetencesComponent } from './pages/competences/competences.component';
+import { LangagesComponent } from './pages/competences/langages/langages.component';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { CompetencesComponent } from './pages/competences/competences.component'
     HomeComponent,
     ProjetsComponent,
     ContactComponent,
-    CompetencesComponent
+    CompetencesComponent,
+    LangagesComponent
   ],
   imports: [
     BrowserModule,
