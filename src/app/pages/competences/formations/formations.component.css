@@ -1,0 +1,35 @@
+img{
+    width: 80px;
+    height: auto;
+    margin: auto 0
+}
+@media only screen and (max-width: 1037px) {
+    img{
+       width: 125px;
+   } 
+}
+@media only screen and (max-width: 1001px) {
+    img{
+       width: 115px;
+   } 
+}
+
+h5{
+    font-weight: 500;
+}
+.grid{
+    height: 70%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+      "A"
+      "B";
+}
+.licence{
+    grid-area: A;
+}
+.bac{
+    grid-area: B;
+}
+   

@@ -16,6 +16,9 @@ import { ProjetsComponent } from './pages/projets/projets.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { CompetencesComponent } from './pages/competences/competences.component';
 import { LangagesComponent } from './pages/competences/langages/langages.component';
+import { FormationsComponent } from './pages/competences/formations/formations.component';
+import { AutresComponent } from './pages/competences/autres/autres.component';
+import { InteretsComponent } from './pages/competences/interets/interets.component';
 
 
 @NgModule({
@@ -25,7 +28,10 @@ import { LangagesComponent } from './pages/competences/langages/langages.compone
     ProjetsComponent,
     ContactComponent,
     CompetencesComponent,
-    LangagesComponent
+    LangagesComponent,
+    FormationsComponent,
+    AutresComponent,
+    InteretsComponent
   ],
   imports: [
     BrowserModule,
