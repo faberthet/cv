@@ -19,6 +19,7 @@ import { LangagesComponent } from './pages/competences/langages/langages.compone
 import { FormationsComponent } from './pages/competences/formations/formations.component';
 import { AutresComponent } from './pages/competences/autres/autres.component';
 import { InteretsComponent } from './pages/competences/interets/interets.component';
+import { ProjetComponent } from './pages/projets/projet/projet.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { InteretsComponent } from './pages/competences/interets/interets.compone
     LangagesComponent,
     FormationsComponent,
     AutresComponent,
-    InteretsComponent
+    InteretsComponent,
+    ProjetComponent
   ],
   imports: [
     BrowserModule,
