@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faCircleCheck, faSquareCheck } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-autres',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./autres.component.css']
 })
 export class AutresComponent implements OnInit {
+  faCircleCheck= faCircleCheck;
+  faSquareCheck=faSquareCheck
 
   constructor() { }
 

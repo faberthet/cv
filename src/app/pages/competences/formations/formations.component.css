@@ -13,9 +13,13 @@ img{
        width: 115px;
    } 
 }
-
+h4{
+    margin-bottom: .5rem;
+}
 h5{
     font-weight: 500;
+    margin-top: 0;
+    margin-bottom: .5rem;
 }
 .grid{
     height: 70%;
@@ -31,5 +35,8 @@ h5{
 }
 .bac{
     grid-area: B;
+}
+.bloc{
+    padding-left: .8rem;
 }
    

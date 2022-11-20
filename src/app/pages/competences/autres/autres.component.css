@@ -1,6 +1,22 @@
-.flex{
-    display: flex;
+
+.grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+      "A B";
 }
-.box{
-    margin-right: 25px;
+.cel1{
+    grid-area: A;
+}
+.cel2{
+    grid-area: B;
+}
+li{
+    padding-bottom: .5rem;
+    padding-left: 0.8rem;
+}
+fa-icon{
+    margin-right: 0.5rem;
 }
