@@ -1,19 +1,19 @@
 <ul class="icon">
     <li *ngIf="project.languages.includes('angular')">
-        angular
-    </li>
-    <li *ngIf="project.languages.includes('java')">
-        Java
+        <fa-icon [icon]="faAngular"></fa-icon>
     </li>
     <li *ngIf="project.languages.includes('typescript')">
-        typescript
+        <fa-icon [icon]="faJs"></fa-icon>
+    </li>
+    <li *ngIf="project.languages.includes('java')">
+        <fa-icon [icon]="faJava"></fa-icon>
     </li>
     <li *ngIf="project.languages.includes('css')">
-        css
+        <fa-icon [icon]="faCss"></fa-icon>
     </li>
 </ul>
 <h3>{{project.name}}</h3>
 <img src="{{project.picture}}" alt="image">
 <span class="info">
-    icon +
+    <fa-icon class="plus" [icon]="faCirclePlus"></fa-icon>
 </span>

@@ -1,6 +1,22 @@
+.flexcontainer{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+}
 .projectsContent{
     width: 100%;
-    height: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.projet{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(43, 90, 74);
+    margin: 5px;
+    border-radius: 15px;
+    padding:10px
 }
 
 
