@@ -21,14 +21,14 @@
     background-position: cover;
     background-repeat: no-repeat;
     background-color: black;
+    /* filter: brightness(40%); */
  }
 .contactcontent::after{
     content: '';
     position: absolute;
     width: 100%;
-    height: 80%;
+    height: 70%;
     bottom: 0;
-    background-color: rgb(131, 43, 43);
     background: linear-gradient(0deg, #013979 50%, transparent 100%);
     z-index: -1;
 } 

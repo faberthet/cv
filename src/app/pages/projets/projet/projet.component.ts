@@ -18,6 +18,12 @@ export class ProjetComponent implements OnInit {
   faJs=faJs
   faCss=faCss3
 
+  showInfo: boolean=false;
+
+  toggleInfo(){
+    this.showInfo=!this.showInfo
+  }
+
   constructor() { }
 
   ngOnInit(): void {
