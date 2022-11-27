@@ -8,7 +8,10 @@ import { Project } from 'src/app/models/project';
   styleUrls: ['./projets.component.css']
 })
 export class ProjetsComponent implements OnInit {
-  projects:Project[]=Projects
+  projects:Project[]=Projects;
+  selectedLanguage:string ="Tout";
+  choices:string[]=["Tout","Angular","Java"]
+
   constructor() { }
 
   ngOnInit(): void {

@@ -1,8 +1,17 @@
+<div *ngFor="let choice of choices">
+   <label for="{{choice}}"></label> {{choice}}
+<input type="radio" name="{{choice}}" id="{{choice}}" value="{{choice}}" [(ngModel)]="selectedLanguage">
+</div>
 <div class="flexcontainer">
     <div class="projectsContent">
-        <div class="projet" *ngFor="let project of projects">
-            <app-projet [project]="project"></app-projet>
-        </div>
+        <ng-container *ngFor="let project of projects">
+            <ng-container *ngIf="selectedLanguage == 'Tout' || project.languages.includes(selectedLanguage)">
+                <div class="projet">
+                    <app-projet [project]="project"></app-projet>
+                </div>
+            </ng-container>
+        </ng-container>
+
     </div>
 </div>
 
