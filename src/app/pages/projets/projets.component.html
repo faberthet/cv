@@ -1,6 +1,8 @@
-<div *ngFor="let choice of choices">
-   <label for="{{choice}}"></label> {{choice}}
-<input type="radio" name="{{choice}}" id="{{choice}}" value="{{choice}}" [(ngModel)]="selectedLanguage">
+<div class="radio" >
+    <div class="choice" *ngFor="let choice of choices">
+        <label for="{{choice}}">{{choice}}</label> 
+        <input type="radio" name="{{choice}}" id="{{choice}}" value="{{choice}}" [(ngModel)]="selectedLanguage">
+    </div>
 </div>
 <div class="flexcontainer">
     <div class="projectsContent">

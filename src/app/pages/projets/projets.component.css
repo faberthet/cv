@@ -1,6 +1,6 @@
 .flexcontainer{
     width: 100%;
-    min-height: 100%;
+    min-height: calc(100% - 2rem) ;
     display: flex;
     align-items: center;
 }
@@ -9,6 +9,7 @@
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
+   
 }
 .projet{
     width: 200px;
@@ -19,7 +20,19 @@
     padding:10px
 }
 
-
+.radio{
+    display: flex;
+    background-color:rgb(90, 90, 212);
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    height: 2rem;
+    border-radius: 15px;
+}
+.choice{
+    margin-right: 20px;
+    text-transform: uppercase;
+}
 
 
 
