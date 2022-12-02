@@ -10,7 +10,7 @@ import { Project } from 'src/app/models/project';
 export class ProjetsComponent implements OnInit {
   projects:Project[]=Projects;
   selectedLanguage:string ="Tout";
-  choices:string[]=["Tout","Angular","Java"]
+  choices:string[]=["Tout","angular","java"]
 
   constructor() { }
 

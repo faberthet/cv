@@ -1,22 +1,25 @@
-<ul class="icon">
-    <li *ngIf="project.languages.includes('angular')">
-        <fa-icon [icon]="faAngular"></fa-icon>
-    </li>
-    <li *ngIf="project.languages.includes('typescript')">
-        <fa-icon [icon]="faJs"></fa-icon>
-    </li>
-    <li *ngIf="project.languages.includes('java')">
-        <fa-icon [icon]="faJava"></fa-icon>
-    </li>
-    <li *ngIf="project.languages.includes('css')">
-        <fa-icon [icon]="faCss"></fa-icon>
-    </li>
-</ul>
-<h3>{{project.name}}</h3>
-<img src="{{project.picture}}" alt="image" (click)="toggleInfo()">
-<span (click)="toggleInfo()">
-    <fa-icon class="plus" [icon]="faCirclePlus"></fa-icon>
-</span>
-<div class="info mat-elevation-z8" *ngIf="showInfo">
-    {{project.info}}
+<div class="item">
+    <ul class="icon">
+        <li *ngIf="project.languages.includes('angular')">
+            <fa-icon [icon]="faAngular"></fa-icon>
+        </li>
+        <li *ngIf="project.languages.includes('typescript')">
+            <fa-icon [icon]="faJs"></fa-icon>
+        </li>
+        <li *ngIf="project.languages.includes('java')">
+            <fa-icon [icon]="faJava"></fa-icon>
+        </li>
+        <li *ngIf="project.languages.includes('css')">
+            <fa-icon [icon]="faCss"></fa-icon>
+        </li>
+    </ul>
+    <h3>{{project.name}}</h3>
+        <img class="avatar mat-elevation-z8" src="assets/images/{{project.picture}}" alt="image" (click)="toggleInfo()">
+        <!-- <img src="{{project.picture}}" alt="image" (click)="toggleInfo()"> //marche aussi -->
+    <div span class="divPlus" (click)="toggleInfo()">
+        <fa-icon class="plus" [icon]="faCirclePlus"></fa-icon>
+    </div>
+    <div class="info mat-elevation-z8" *ngIf="showInfo">
+        {{project.info}}
+    </div>
 </div>
