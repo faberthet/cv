@@ -46,7 +46,7 @@ mat-sidenav{
 
 mat-sidenav-content{
     /* height: calc(100vh - 98px); */
-    height: 80vh;
+    height: 750px;
     background-color: rgb(226, 226, 226);
     margin-left: 260px !important; /* witdh nav + 10px */
     /* padding: 10px;

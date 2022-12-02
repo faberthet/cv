@@ -1,21 +1,23 @@
 .flexcontainer{
     width: 100%;
-    min-height: calc(100% - 2rem) ;
+    min-height: calc(100% - 3rem) ;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 .projectsContent{
     width: 100%;
+    min-height: calc(100% - 3rem - 5px); /* - .radio height - .projet padding top */
     display: flex;
     flex-wrap:wrap;
-    justify-content: center;
+    justify-content:space-evenly;
+   padding-top: 5px;
    
 }
 .projet{
-    width: 200px;
-    height: 300px;
+    width: calc(30% + 4px);
+    height: 325px;
     background-color: rgb(43, 90, 74);
-    margin: 5px;
+    /* margin: 2px; */
     border-radius: 15px;
     padding:10px
 }
@@ -26,7 +28,7 @@
     justify-content: center;
     align-items: center;
     /* width: 100%; */
-    height: 2rem;
+    height: 3rem;
     border-radius: 15px;
 }
 .choice{
@@ -34,45 +36,56 @@
     text-transform: uppercase;
 }
 
-
-
-
-/*
-.projectcontent > div{
-    display: flex;
-    width: 100%;
-    margin: 15px 0;
+@media only screen and (max-width: 1770px) {
+    .projet{
+        width: calc(30% + 2px);
+ }  
+}
+@media only screen and (max-width: 1663px) {
+    .projet{
+        width: calc(30% + 1px);
+ }  
+}
+@media only screen and (max-width: 1600px) {
+    .projet{
+        width: 30%;
+ }  
 }
 
- .textdiv{
-width: 50%;
-text-align: center;
+@media only screen and (max-width: 1551px) {
+      .projet{
+      margin:1px;
+    } 
 }
-.imgdiv{
-width: 50%;
-text-align: center;
-} 
-
-img{
-width: 300px;
+@media only screen and (max-width: 1460px) {
+    .projet{
+    width: 46%;
+  }  
 
 }
-
-@media only screen and (max-width: 1598px) {
-    img{
-        width: 250px;
-    }
+@media only screen and (max-width: 1289px) {
+    .projet{
+    width: 45%;
+  }  
 }
-@media only screen and (max-width: 1280px) {
-    .projectcontent > div{
-        flex-direction: column;
-    }
-    .textdiv{
-        width: 100%;
-    }
-    .imgdiv{
-        width: 100%;
-        margin-top: 15px;
-    }
+  @media only screen and (max-width: 1120px) {
+    .projet{
+    width: 95%;
+  }  
+}
+@media only screen and (max-width: 991px) {
+    .projet{
+    width: 46%;
+  }  
+}
+@media only screen and (max-width: 890px) {
+     .projet{
+    width: 45%;
+  }  
+}
+@media only screen and (max-width: 720px) {
+    .projet{
+   width: 95%;
+ }  
+}
 
-} */

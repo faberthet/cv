@@ -4,7 +4,7 @@
         <input type="radio" name="{{choice}}" id="{{choice}}" value="{{choice}}" [(ngModel)]="selectedLanguage">
     </div>
 </div>
-<div class="flexcontainer">
+<!-- <div class="flexcontainer"> -->
     <div class="projectsContent">
         <ng-container *ngFor="let project of projects">
             <ng-container *ngIf="selectedLanguage == 'Tout' || project.languages.includes(selectedLanguage)">
@@ -15,7 +15,7 @@
         </ng-container>
 
     </div>
-</div>
+<!-- </div> -->
 
 
 
