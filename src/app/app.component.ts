@@ -2,7 +2,9 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatSidenav } from '@angular/material/sidenav';
 import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout'
 
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars,faScrewdriverWrench,faImages,faHouse,faAddressCard } from '@fortawesome/free-solid-svg-icons';
+
+
 
 @Component({
   selector: 'app-root',
@@ -12,6 +14,10 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 export class AppComponent implements OnInit{
 
   faBars= faBars;
+  faScrewdriver=faScrewdriverWrench
+  faImages=faImages
+  faHouse=faHouse
+  faAdress=faAddressCard
 
   @ViewChild(MatSidenav, { static: true }) sidenav!: MatSidenav;
 
