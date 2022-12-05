@@ -20,6 +20,7 @@
     /* margin: 2px; */
     border-radius: 15px;
     margin-top: 10px;
+    position: relative;
 }
 
 .radio{
@@ -35,7 +36,6 @@
     margin-right: 20px;
     text-transform: uppercase;
 }
-
 /* @media only screen and (max-width: 1770px) {
     .projet{
         width: calc(30% + 2px);

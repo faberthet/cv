@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 42% 1fr 1fr;
     grid-template-rows: 72% 28%;
     grid-template-areas: 
       "L D D"
@@ -52,8 +52,7 @@
 @media only screen and (max-width: 615px) {
    .knowContent{
     display: block;
-  }
-  .knowContent{
     height: min-content;
   }
+
 }

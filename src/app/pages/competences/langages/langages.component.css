@@ -58,6 +58,13 @@ li{
         width: 100%;
     }
 }
-h3{
+ h3{
     margin-top: 0;
-}
+} 
+ @media only screen and (max-width: 615px) {
+    .fra{
+
+       padding-top: 16px;
+
+    }
+} 

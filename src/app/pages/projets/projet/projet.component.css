@@ -2,6 +2,7 @@
     padding: 0 5px;
 padding-top: 5px;
 }
+
 h3{
     margin: 0;
     margin-top: 1rem;
@@ -21,6 +22,13 @@ fa-icon.plus{
 }
 .info{
     background-color: brown;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    width:calc(100% - 20px); /* - padding*/
+    height: 255px; /* - padding*/
+    padding: 10px;
 }
 .icon{
     display: flex;
