@@ -13,8 +13,11 @@ fa-icon{
 }
 fa-icon.plus{
     font-size: 1.5rem;
-
 }
+fa-icon.plus:hover{
+    cursor: pointer;
+}
+
 .divPlus{
     width: 100%;
     text-align: center;
@@ -30,7 +33,7 @@ fa-icon.plus{
     height: 255px; /* - padding*/
     padding: 10px;
     transform: scaleY(0);
-    animation: 0.7s forwards opening; /* ligne: nom de l'animation*/
+    animation: 0.7s forwards opening;  /*ligne: nom de l'animation*/
     transform-origin: top;
 }
 @keyframes opening {

@@ -16,8 +16,11 @@
     <h3>{{project.name}}</h3>
         <img class="avatar mat-elevation-z8" src="assets/images/{{project.picture}}" alt="image" (click)="toggleInfo()">
         <!-- <img src="{{project.picture}}" alt="image" (click)="toggleInfo()"> //marche aussi -->
-    <div span class="divPlus" (click)="toggleInfo()">
+    <div span class="divPlus" (click)="toggleInfo()" *ngIf="!showInfo">
         <fa-icon class="plus" [icon]="faCirclePlus"></fa-icon>
+    </div>
+    <div span class="divPlus" (click)="toggleInfo()" *ngIf="showInfo">
+        <fa-icon class="plus" [icon]="faCircleMinus"></fa-icon>
     </div>
     <div class="info mat-elevation-z8" *ngIf="showInfo">
         {{project.info}}

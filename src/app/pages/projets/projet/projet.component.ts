@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Project } from 'src/app/models/project';
-import { faCirclePlus } from '@fortawesome/free-solid-svg-icons';
+import { faCirclePlus, faCircleMinus } from '@fortawesome/free-solid-svg-icons';
 import { faAngular,faJava,faJs,faCss3 } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
@@ -13,6 +13,8 @@ export class ProjetComponent implements OnInit {
   @Input() project: Project = new Project;
 
   faCirclePlus= faCirclePlus
+  faCircleMinus= faCircleMinus
+
   faAngular= faAngular
   faJava=faJava
   faJs=faJs
