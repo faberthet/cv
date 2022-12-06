@@ -29,6 +29,14 @@ fa-icon.plus{
     width:calc(100% - 20px); /* - padding*/
     height: 255px; /* - padding*/
     padding: 10px;
+    transform: scaleY(0);
+    animation: 0.7s forwards opening; /* ligne: nom de l'animation*/
+    transform-origin: top;
+}
+@keyframes opening {
+    to{
+        transform: scaleY(1);
+    }
 }
 .icon{
     display: flex;
