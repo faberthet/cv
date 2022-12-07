@@ -4,4 +4,6 @@ export class Project {
     source!: string;
     info!: string;
     picture!: string;
+    demo!:string;
+    website!:string;
 }
