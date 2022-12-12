@@ -51,7 +51,7 @@ img{
     height: 255px; /* - padding*/
     padding: 10px;
     transform: scaleY(0);
-    animation: 0.7s forwards opening;  /*ligne: nom de l'animation*/
+    animation: 0.5s forwards opening;  /*ligne: nom de l'animation*/
     transform-origin: top;
 }
 @keyframes opening {

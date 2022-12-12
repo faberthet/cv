@@ -25,9 +25,9 @@
     <div class="info mat-elevation-z8" *ngIf="showInfo">
         <h3 class="titleInfo">{{project.name}}</h3>
         <ul>
-            <li>> <a href={{project.source}}>Code source</a></li>
-            <li>> <a href={{project.demo}}>Démo</a></li>
-            <li>> <a href={{project.website}}>Site web</a></li>
+            <li *ngIf="project.source != ''">> <a href={{project.source}}>Code source</a></li>
+            <li *ngIf="project.demo != ''">> <a href={{project.demo}}>Démo</a></li>
+            <li *ngIf="project.website != ''">> <a href={{project.website}}>Site web</a></li>
         </ul>
         <!-- <div class="button"><a href={{project.demo}}>Démo</a></div>
         <div class="button"><a href={{project.source}}>Code source</a></div> -->

@@ -32,10 +32,17 @@ h5{
 }
 .licence{
     grid-area: A;
+    /* background-image: url('src/assets/images/istic.png'); 
+    background-size: 100% */
+    
 }
 .bac{
     grid-area: B;
+    /* background-image: url('src/assets/images/maup.jpg'); 
+    background-size: cover;
+    background-attachment: fixed; */
 }
+
 .bloc{
     padding-left: .8rem;
 }
