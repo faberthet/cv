@@ -3,11 +3,12 @@
     width: 1200px;
     margin: 0 auto;
     height: 3rem ;
-    background-color: #004a9f;
+    background-color: #26262c;
     margin-top: 10px;
     border-radius: 10px;
-    display: flex;
+    display: none;
     align-items: center;
+
 }
 .toolbar{
     height: 2rem;
@@ -30,7 +31,7 @@ mat-sidenav-container{
     background: transparent;
    width: 1200px;
 margin: 0 auto;
-margin-top: 10px;
+
 border-radius: 10px;
 position: relative;
 }
@@ -38,10 +39,11 @@ position: relative;
 mat-sidenav{
     width: 250px;
     /* background-color:darkseagreen;  */
-    background-color:cornflowerblue;
+    background-color:#26262c;
     border-radius: 10px;
     padding: 10px;
     border-right:none;
+    color: rgb(209, 209, 209);
 }
 
 mat-sidenav-content{
@@ -101,6 +103,10 @@ mat-divider{
 
 
 @media only screen and (max-width: 991px) {
+    .toolbarcontainer{
+        display: flex;
+    }
+
     mat-sidenav-content{
         margin-left: 0 !important;
     }
@@ -110,7 +116,7 @@ mat-divider{
         align-items: center;
     }
     mat-sidenav-container{
-        /* margin-bottom: 10px; */
+         margin-top: 10px;
     }
 
 }
