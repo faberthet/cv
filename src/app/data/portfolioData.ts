@@ -11,7 +11,7 @@ export const Projects: Project[] = [
         website:'https://breizh-jardinvivant.com/'
     },
     {
-        name:'Breizh Jardin (back-end)',
+        name:'BJV CRUD',
         languages:['angular','java','typescript', 'css'],
         source: 'https://github.com/faberthet/bjv-backend',
         info: 'Partie création d\'articles du site web Breizh Jardin vivant',

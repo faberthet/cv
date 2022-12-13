@@ -9,12 +9,13 @@
     min-height: calc(100% - 3rem ); /* - .radio height - .projet padding top */
     display: flex;
     flex-wrap:wrap;
-    justify-content:space-evenly;
+    /* justify-content:space-evenly; */
+justify-content: space-between;
    /* padding-top: 5px; */
    
 }
 .projet{
-    width: 30%;
+    width: 32%;
     height: 325px;
     background-color: rgb(43, 90, 74);
     /* margin: 2px; */
@@ -86,8 +87,10 @@
  */
 @media only screen and (max-width: 675px) {
     .projet{
-   width: 43%;
+   width: 48%;
    
  }  
-
+ .projectsContent{
+    justify-content: space-around;
+ }
 }
