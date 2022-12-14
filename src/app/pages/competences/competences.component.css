@@ -10,7 +10,7 @@
 }
 .languages{
     grid-area: L;
-    background-color: cornflowerblue;
+    background-color: #454953;;
     margin: 5px;
     margin-top: 0;
     border-radius: 10px;
@@ -19,7 +19,7 @@
 }
 .diplomes{
     grid-area: D;
-    background-color: cornflowerblue;
+    background-color: #454953;;
     margin: 5px;
     margin-top: 0;
     border-radius: 10px;
@@ -30,7 +30,7 @@
 }
 .autres{
     grid-area: A;
-    background-color: cornflowerblue;
+    background-color: #454953;;
     margin: 5px;
     margin-bottom: 0;
     border-radius: 10px;
@@ -43,7 +43,7 @@
 
 .hobbies{
     grid-area: H;
-    background-color: cornflowerblue;
+    background-color: #454953;;
     margin: 5px;
     margin-bottom: 0;
     border-radius: 10px;
