@@ -8,9 +8,13 @@
       "L D D"
       "A A H";
 }
+.knowContent>div{
+    background-color: #26262c;
+    border: solid 2px black;
+    color: rgb(194, 192, 192);
+}
 .languages{
     grid-area: L;
-    background-color: #454953;;
     margin: 5px;
     margin-top: 0;
     border-radius: 10px;
@@ -19,7 +23,6 @@
 }
 .diplomes{
     grid-area: D;
-    background-color: #454953;;
     margin: 5px;
     margin-top: 0;
     border-radius: 10px;
@@ -30,7 +33,6 @@
 }
 .autres{
     grid-area: A;
-    background-color: #454953;;
     margin: 5px;
     margin-bottom: 0;
     border-radius: 10px;
@@ -43,7 +45,6 @@
 
 .hobbies{
     grid-area: H;
-    background-color: #454953;;
     margin: 5px;
     margin-bottom: 0;
     border-radius: 10px;

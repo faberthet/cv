@@ -4,13 +4,12 @@
     padding: 0 50px;
   /* background: linear-gradient(115deg, #013979 50%, transparent 100%); */
   background: linear-gradient(115deg, #26262c 50%, transparent 100%);
-  
   height: calc(100% - 100px);
   /* width: 100%; */
   padding-top: 100px;
   padding-left: 100px;
   position: relative;
-  color:deepskyblue
+  color:aliceblue;
 }
 .imgback{
     height: 100%;
@@ -37,7 +36,7 @@ h2{
 font-size: 1.8rem;
 text-shadow: 2px 2px 2px black;
 font-weight: 500;
-color: cornflowerblue;
+color: rgb(192, 198, 204);
 }
 
 .pdf{
@@ -48,14 +47,14 @@ color: black;
     display: block;
     width: max-content;
     font-size: 1.5rem;
-    background-color: cornflowerblue;
+    background-color:rgb(192, 198, 204);
     padding: 1rem 2rem;
     border-radius: 25px;
     box-shadow: 0 5px 1px rgb(15, 15, 15);
     transition: 0.2s ease;
 }
 .pdf a:hover{
-    background-color:royalblue;
+    background-color:rgb(147, 151, 156);
 }
 a{
     color: inherit; 
