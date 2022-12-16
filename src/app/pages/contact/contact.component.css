@@ -7,7 +7,7 @@
     width: 100%;
     position: relative;
     /* z-index: -2; */
-
+    color: #b3b3b3;
     
 }
  .contactcontent::before{
@@ -44,6 +44,7 @@
     padding: 10px 50px;
     margin: 0 auto;
     
+    
 }
 .contactcadre > .item{
     display: flex;
@@ -61,6 +62,7 @@
 h1{
     width: max-content;
     margin: 10px auto;
+    color: aquamarine;
 }
 .icotem{
     margin-right:  40px;
@@ -79,13 +81,13 @@ h1{
         align-items: center;
          width: 150px;
          font-size: 1rem;
-        background-color: rgb(84, 168, 140);
+        background-color: #26262c;;
          padding: 10px 0; 
         border-radius: 25px;
         transition: 0.2s ease; 
 }
     .reso > a:hover{
-        background-color:rgb(63, 128, 106);
+        background-color:#3f3f49;
     }
     .reso > a > fa-icon{
         margin-top: 5px;
@@ -93,4 +95,7 @@ h1{
     a{
         color: inherit; 
         text-decoration: inherit;
+    }
+    fa-icon{
+        color: aquamarine;
     }

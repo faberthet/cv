@@ -23,7 +23,7 @@ export const Projects: Project[] = [
         name:'Mots croisés',
         languages:['java','typescript', 'css'],
         source: 'https://github.com/faberthet/MotCroises',
-        info: 'Mon tout dernier projet Java à l\'université, utilisant Java FX',
+        info: 'Mon tout dernier projet Java à l\'université, avec Java FX',
         picture:'mot1.jpg',
         demo:'https://drive.google.com/file/d/1OBjtPZnd4cNwq7GAXpGnx4FAuSIvLgC6/view',
         website:''

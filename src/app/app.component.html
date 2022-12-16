@@ -12,7 +12,7 @@
   <mat-sidenav #sidenav="matSidenav">
     <img class="avatar mat-elevation-z8" src="assets/images/photocarre.png" alt="photo">
     <!-- <h4 class="name"> Fabrice Berthet</h4>
-    <div class="fonction"> développeur Angular / Spring Boot</div> -->
+    <div class="fonction"> développeur Angular Spring boot</div>  -->
     <mat-divider></mat-divider>
     <a routerLink="/">
       <button mat-button class="item">
@@ -20,16 +20,16 @@
         <span>Home</span>
       </button>
     </a>
-    <a routerLink="/projets">
-      <button mat-button class="item">
-        <fa-icon class="sidenav-icon" [icon]="faImages" ></fa-icon>
-        <span>Projets</span>
-      </button>
-    </a>
     <a routerLink="/competences">
       <button mat-button class="item">
         <fa-icon class="sidenav-icon" [icon]="faScrewdriver" ></fa-icon>
         <span>Compétences</span>
+      </button>
+    </a>
+    <a routerLink="/projets">
+      <button mat-button class="item">
+        <fa-icon class="sidenav-icon" [icon]="faImages" ></fa-icon>
+        <span>Projets</span>
       </button>
     </a>
     <a routerLink="/contact">
