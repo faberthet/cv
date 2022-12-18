@@ -45,7 +45,7 @@ li{
 }
 .progress::after{
     content: '';
-    background-color:rgb(86, 173, 144);
+    background-color:rgb(204, 204, 204);
     height: 0.4rem;
     border-radius: 50px;
     margin-top: .2rem;
@@ -60,7 +60,7 @@ li{
 }
  h3{
     margin-top: 0;
-    color:aquamarine;
+    color:var(--fontcolor3)
 } 
  @media only screen and (max-width: 615px) {
     .fra{

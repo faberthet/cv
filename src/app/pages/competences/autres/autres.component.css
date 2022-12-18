@@ -19,9 +19,9 @@ li{
 }
 fa-icon{
     margin-right: 0.5rem;
-    color: aquamarine;
+    color: var(--iconcolor1);
 }
 h3{
     margin-top: 0;
-    color:aquamarine
+    color:var(--fontcolor3);
 }

@@ -1,3 +1,17 @@
+:root {
+    /* #26262c */
+    --bgcolor1: rgb(26, 28, 29);
+    --bgcolor2: rgb(66, 77, 79);
+    --bgcolor3: rgb(93, 109, 112);
+    --fontcolor1: white;
+    --fontcolor2: white;
+    --fontcolor3: white;
+    --paracolor:white;
+    --iconcolor1:white;
+    --iconcolor2:white;
+  }
+  /* exemple: color: var(--main-bg1)*; */
+  
 /* You can add global styles to this file, and also import other style files */
 
 html, body{ min-height: 100vh; width: 100%} 

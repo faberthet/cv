@@ -9,9 +9,9 @@
       "A A H";
 }
 .knowContent>div{
-    background-color: #26262c;
+    background-color: var(--bgcolor1);
     border: solid 2px black;
-    color: rgb(194, 192, 192);
+    color: var(--paracolor);
 }
 .languages{
     grid-area: L;

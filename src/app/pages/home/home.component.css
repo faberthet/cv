@@ -3,13 +3,13 @@
 .homecontent{
     padding: 0 50px;
   /* background: linear-gradient(115deg, #013979 50%, transparent 100%); */
-  background: linear-gradient(115deg, #26262c 50%, transparent 100%);
+  background: linear-gradient(115deg, var(--bgcolor1) 50%, transparent 100%);
   height: calc(100% - 100px);
   /* width: 100%; */
   padding-top: 100px;
   padding-left: 100px;
   position: relative;
-  color:aliceblue;
+  color:var(--paracolor);
 }
 .imgback{
     height: 100%;
@@ -31,32 +31,31 @@ h1{
     margin-top: 0;
     margin-bottom: 1rem;
     text-shadow: 2px 2px 2px black;
-    color:rgb(192, 198, 204);
-    color:rgb(255, 255, 255);
+    color:var(--fontcolor1);
 }
 h2{
 font-size: 1.8rem;
 text-shadow: 2px 2px 2px black;
 font-weight: 500;
-color: rgb(192, 198, 204);
+color: var(--fontcolor2);
 }
 
 .pdf{
 margin-top: 75px;
-color: black;
+color: var(--paracolor);
 }
 .pdf a{
     display: block;
     width: max-content;
     font-size: 1.5rem;
-    background-color:rgb(106, 212, 177);
+    background-color:var(--bgcolor2);
     padding: 1rem 2rem;
     border-radius: 25px;
     box-shadow: 0 5px 1px rgb(15, 15, 15);
     transition: 0.2s ease;
 }
 .pdf a:hover{
-    background-color:aquamarine;
+    background-color:var(--bgcolor3);
 }
 a{
     color: inherit; 
