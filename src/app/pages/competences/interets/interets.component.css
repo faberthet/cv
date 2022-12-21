@@ -3,7 +3,7 @@ li{
 }
 fa-icon{
     margin-right: .7rem;
-    color: aquamarine;
+    color: var(--iconcolor2);
 }
 h3{
     margin-top: 0;

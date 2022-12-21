@@ -46,6 +46,7 @@ img{
 }
 .info{
     background-color:var(--bgcolor2);
+    color: var(--paracolor);
     position: absolute;
     top: 0;
     left: 0;

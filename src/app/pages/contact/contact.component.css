@@ -31,7 +31,7 @@
     bottom: 0;
     /* background: linear-gradient(0deg, #013979 50%, transparent 100%); */
     /* background: linear-gradient(0deg, #002249 30%, transparent 100%); */
-     background: linear-gradient(0deg, var(--bgcolor1) 25%, transparent 100%);
+     background: linear-gradient(0deg, var(--bgcolor2) 25%, transparent 100%);
    
     z-index: -1;
 } 

@@ -1,14 +1,22 @@
 :root {
     /* #26262c */
-    --bgcolor1: rgb(26, 28, 29);
+    /* --bgcolor1: rgb(26, 28, 29);
     --bgcolor2: rgb(66, 77, 79);
-    --bgcolor3: rgb(93, 109, 112);
-    --fontcolor1: white;
-    --fontcolor2: white;
-    --fontcolor3: white;
-    --paracolor:white;
-    --iconcolor1:white;
-    --iconcolor2:white;
+    --bgcolor3: rgb(93, 109, 112); */
+    /*#845ec2 base color1*/
+    --bgcolor1: #303030;
+    --bgcolor2: #303030;
+    --bgcolor3: #444444;
+    --fontcolor1: #00adad;
+    --fontcolor2: #00adad;
+    --fontcolor3: #00adad;
+    --paracolor:#c6c6c6;
+    --iconcolor1:#00adad;
+    --iconcolor2:#00adad;
+    --customcolor1:#303030; /*bgcolor1 en un peu plus clair*/
+    --buttonbgcolor:#006c72;
+    --buttonbgcolor2:#008888;
+    --buttoncolor:#c6c6c6;
   }
   /* exemple: color: var(--main-bg1)*; */
   
@@ -16,8 +24,8 @@
 
 html, body{ min-height: 100vh; width: 100%} 
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
-     background-color: dimgray;
-
+     background-color: #5e5e5e;
+     /* background-color: #000000; */
      display: flex;
      align-items: center;
      justify-content: center;

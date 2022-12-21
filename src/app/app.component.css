@@ -46,7 +46,7 @@ mat-sidenav{
     color: var(--paracolor);
 }
 .sidenav-icon{
-    /* color:var(--iconcolor1); */
+    color:var(--iconcolor1);
 }
 
 mat-sidenav-content{

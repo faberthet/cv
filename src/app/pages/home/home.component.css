@@ -42,20 +42,20 @@ color: var(--fontcolor2);
 
 .pdf{
 margin-top: 75px;
-color: var(--paracolor);
+color: var(--buttoncolor);
 }
 .pdf a{
     display: block;
     width: max-content;
     font-size: 1.5rem;
-    background-color:var(--bgcolor2);
+    background-color:var(--buttonbgcolor);
     padding: 1rem 2rem;
     border-radius: 25px;
     box-shadow: 0 5px 1px rgb(15, 15, 15);
     transition: 0.2s ease;
 }
 .pdf a:hover{
-    background-color:var(--bgcolor3);
+    background-color:var(--buttonbgcolor2);
 }
 a{
     color: inherit; 
