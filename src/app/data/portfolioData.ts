@@ -2,6 +2,24 @@ import { Project } from "../models/project";
 
 export const Projects: Project[] = [
     {
+        name:'memory game',
+        languages:['angular','typescript', 'css'],
+        source: 'https://github.com/faberthet/memory-game',
+        info: 'jeu de memoire, il faut faire des paires avec des cartes',
+        picture:'/memogame.jpg',
+        demo:'',
+        website:'https://d2d4fv7uemrjwq.cloudfront.net/'
+    },
+    {
+        name:'appli meteo',
+        languages:['angular','typescript', 'css'],
+        source: 'https://github.com/faberthet/meteo',
+        info: 'meteo à Rennes sur 7 jours. api utilisée: https://open-meteo.com/',
+        picture:'/meteo.jpg',
+        demo:'',
+        website:'https://d2wu6xv7elibw8.cloudfront.net/'
+    },
+    {
         name:'Breizh jardin vivant',
         languages:['angular','java','typescript', 'css'],
         source: 'https://github.com/faberthet/bjv-front-end',
@@ -36,23 +54,6 @@ export const Projects: Project[] = [
         picture:'cv.jpg',
         demo:'',
         website:''
-    },
-    {
-        name:'lorem.fr',
-        languages:['typescript', 'css'],
-        source: 'google.com',
-        info: 'truk machin bidule',
-        picture:'/image.jpg',
-        demo:'',
-        website:''
-    },
-    {
-        name:'lorem.fr',
-        languages:['typescript', 'css'],
-        source: 'google.com',
-        info: 'truk machin bidule',
-        picture:'/image.jpg',
-        demo:'',
-        website:''
     }
+
 ]

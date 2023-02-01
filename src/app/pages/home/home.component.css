@@ -4,6 +4,8 @@
     padding: 0 50px;
   /* background: linear-gradient(115deg, #013979 50%, transparent 100%); */
   background: linear-gradient(115deg, var(--bgcolor1) 50%, transparent 100%);
+  background-image: url('src/assets/images/bg4.jpg');
+    background-size: cover;
   height: calc(100% - 100px);
   /* width: 100%; */
   padding-top: 100px;
@@ -15,7 +17,8 @@
     height: 100%;
     width: 100%;
     z-index: -1;
-    background-image: url('src/assets/images/clavier.jpg'); 
+    /* background-image: url('src/assets/images/clavier.jpg'); */
+    /* background-image: url('src/assets/images/bg11.jpg'); */
     background-size: cover;
     background-attachment: fixed;
     position: absolute;

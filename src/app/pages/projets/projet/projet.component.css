@@ -8,7 +8,7 @@ padding-top: 5px;
     margin-top: 1rem;
  text-align: center;
 font-weight: 500;
-color: aliceblue;
+color: var(--titleprojcolor);
 }
 fa-icon{
     font-size: 1.3rem;
