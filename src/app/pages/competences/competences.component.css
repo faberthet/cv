@@ -9,9 +9,9 @@
       "A A H";
 }
 .knowContent>div{
-    /* background-color: var(--bgcolor1); */
-    background: linear-gradient(0deg, var(--bgcolor1) 50%, var(--bgcolor2) 100%);
-
+     background-color: var(--bgcolor1);
+    /* background: linear-gradient(0deg, var(--bgcolor1) 50%, var(--bgcolor2) 100%);
+    background: radial-gradient(var(--bgcolor2),var(--bgcolor1)); */
     /* border: solid 2px black; */
     color: var(--paracolor);
 }

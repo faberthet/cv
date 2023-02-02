@@ -16,7 +16,7 @@ justify-content: space-between;
 }
 .projet{
     width: 32%;
-    height: 325px;
+    height: 335px;
     /* background-color: rgb(43, 90, 74); */
     /* background: linear-gradient(180deg, var(--bgcolor1) 50%, var(--bgcolor2) 100%); */
     background-color: var(--bgcolor1);

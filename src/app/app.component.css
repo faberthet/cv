@@ -3,7 +3,7 @@
     width: 1200px;
     margin: 0 auto;
     height: 3rem ;
-    background-color: var(--bgcolor1);
+    background-color: var(--bgcolor3);
     margin-top: 10px;
     border-radius: 10px;
     display: none;
@@ -15,9 +15,11 @@
  margin-left: 5px;
     padding: 0 1rem;
     background-color:var(--bgcolor1);
+    
     border-radius: 10px;
     width: max-content;
     display: none;
+    color: var(--paracolor);
 }
 
 .toolbar:hover{
