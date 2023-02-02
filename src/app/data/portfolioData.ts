@@ -5,8 +5,8 @@ export const Projects: Project[] = [
         name:'memory game',
         languages:['angular','typescript', 'css'],
         source: 'https://github.com/faberthet/memory-game',
-        info: 'jeu de memoire, il faut faire des paires avec des cartes',
-        picture:'/memogame.jpg',
+        info: 'jeu de mémoire ou il faut faire des paires avec des cartes',
+        picture:'memogame.jpg',
         demo:'',
         website:'https://d2d4fv7uemrjwq.cloudfront.net/'
     },
@@ -14,8 +14,8 @@ export const Projects: Project[] = [
         name:'appli meteo',
         languages:['angular','typescript', 'css'],
         source: 'https://github.com/faberthet/meteo',
-        info: 'meteo à Rennes sur 7 jours. api utilisée: https://open-meteo.com/',
-        picture:'/meteo.jpg',
+        info: 'météo à Rennes sur 7 jours. api: https://open-meteo.com/',
+        picture:'meteo.jpg',
         demo:'',
         website:'https://d2wu6xv7elibw8.cloudfront.net/'
     },
