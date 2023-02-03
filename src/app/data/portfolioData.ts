@@ -2,7 +2,7 @@ import { Project } from "../models/project";
 
 export const Projects: Project[] = [
     {
-        name:'memory game',
+        name:'Memory game',
         languages:['angular','typescript', 'css'],
         source: 'https://github.com/faberthet/memory-game',
         info: 'Jeu de mémoire où il faut retourner des cartes pour faire des paires. Un de mes tout derniers projet Angular.',
@@ -38,15 +38,6 @@ export const Projects: Project[] = [
         website:''
     },
     {
-        name:'Mots croisés',
-        languages:['java','typescript', 'css'],
-        source: 'https://github.com/faberthet/MotCroises',
-        info: 'Mon dernier projet à l\'université, avec Java FX',
-        picture:'mot1.jpg',
-        demo:'https://drive.google.com/file/d/1OBjtPZnd4cNwq7GAXpGnx4FAuSIvLgC6/view',
-        website:''
-    },
-    {
         name:'Mon CV',
         languages:['angular','typescript', 'css'],
         source: 'https://github.com/faberthet/cv',
@@ -54,6 +45,14 @@ export const Projects: Project[] = [
         picture:'cv.jpg',
         demo:'',
         website:''
+    },
+    {
+        name:'Mots croisés',
+        languages:['java','typescript', 'css'],
+        source: 'https://github.com/faberthet/MotCroises',
+        info: 'Mon dernier projet à l\'université, avec Java FX',
+        picture:'mot1.jpg',
+        demo:'https://drive.google.com/file/d/1OBjtPZnd4cNwq7GAXpGnx4FAuSIvLgC6/view',
+        website:''
     }
-
 ]
