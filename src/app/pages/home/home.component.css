@@ -6,7 +6,7 @@
   /* background: linear-gradient(115deg, var(--bgcolor1) 50%, transparent 100%); */
   background-color:var(--bgcolor1) ;
   background-image: url('src/assets/images/bg4.jpg');
-    background-size: cover;
+  background-size: cover;
   height: calc(100% - 100px);
   /* width: 100%; */
   padding-top: 100px;

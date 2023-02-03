@@ -9,8 +9,8 @@ export class LangagesComponent implements OnInit {
 
   langages=[ 
     {id:1, value:"Java",xp:'100%'}, //xp en pourcentage de temps sur 2 ans
-    {id:2, value:"Javascript",xp:'70%'},
-    {id:3, value:"Typescript",xp:'50%'},
+    {id:2, value:"Javascript",xp:'75%'},
+    {id:3, value:"Typescript",xp:'53%'},
     {id:4, value:"CSS",xp:'100%'},
     {id:5, value:"SQL",xp:'100%'}
 ]
