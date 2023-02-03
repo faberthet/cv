@@ -87,7 +87,7 @@ h1{
         transition: 0.2s ease; 
 }
     .reso > a:hover{
-        background-color:var(--bgcolor3);
+        background-color:var(--customcolor1);
     }
     .reso > a > fa-icon{
         margin-top: 5px;

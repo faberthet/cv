@@ -6,14 +6,14 @@
     /*#845ec2 base color1*/
     --bgcolor1:#0b293d;/* #303030;*/
     --bgcolor2: #114568;/*#134b70;*/
-    --bgcolor3: #104364;
+    --bgcolor3: #104364; /*#104364; */
     --fontcolor1: #00adad;
     --fontcolor2: #00adad;;
     --fontcolor3: #00adad;;
     --paracolor:#c6c6c6;
     --iconcolor1:#00adad;
     --iconcolor2:#00adad;
-    --customcolor1:#303030; /*bgcolor1 en un peu plus clair*/
+    --customcolor1:#155580; /*bgcolor2 en un peu plus clair*/
     --buttonbgcolor:#006c72;
     --buttonbgcolor2:#008888;
     --buttoncolor:#c6c6c6;
