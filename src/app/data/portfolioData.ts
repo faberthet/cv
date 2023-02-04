@@ -5,7 +5,7 @@ export const Projects: Project[] = [
         name:'Memory game',
         languages:['angular','typescript', 'css'],
         source: 'https://github.com/faberthet/memory-game',
-        info: 'Jeu de mémoire où il faut retourner des cartes pour faire des paires. Un de mes tout derniers projet Angular.',
+        info: 'Jeu de mémoire où il faut retourner des cartes pour faire des paires. Un de mes tout derniers projets Angular.',
         picture:'memogame.jpg',
         demo:'',
         website:'https://d2d4fv7uemrjwq.cloudfront.net/'
@@ -38,15 +38,6 @@ export const Projects: Project[] = [
         website:''
     },
     {
-        name:'Mon CV',
-        languages:['angular','typescript', 'css'],
-        source: 'https://github.com/faberthet/cv',
-        info: 'Mon cv développé avec Angular',
-        picture:'cv.jpg',
-        demo:'',
-        website:''
-    },
-    {
         name:'Mots croisés',
         languages:['java','typescript', 'css'],
         source: 'https://github.com/faberthet/MotCroises',
@@ -54,5 +45,15 @@ export const Projects: Project[] = [
         picture:'mot1.jpg',
         demo:'https://drive.google.com/file/d/1OBjtPZnd4cNwq7GAXpGnx4FAuSIvLgC6/view',
         website:''
+    },
+    {
+        name:'Mon CV',
+        languages:['angular','typescript', 'css'],
+        source: 'https://github.com/faberthet/cv',
+        info: 'Mon cv développé avec Angular',
+        picture:'cv.jpg',
+        demo:'',
+        website:''
     }
+
 ]

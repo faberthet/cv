@@ -41,7 +41,7 @@ position: relative;
 mat-sidenav{
     width: 250px;
     /* background-color:darkseagreen;  */
-    background-color:var(--bgcolor1);
+    /* background-color:var(--bgcolor1); */
     background: linear-gradient(0deg, var(--bgcolor1) 50%, var(--bgcolor2) 100%);
     /* background-image: url('src/assets/images/bg4.jpg');  */
     background-size: cover;

@@ -2,26 +2,24 @@
 
 .homecontent{
     padding: 0 50px;
-  /* background: linear-gradient(115deg, #013979 50%, transparent 100%); */
-  /* background: linear-gradient(115deg, var(--bgcolor1) 50%, transparent 100%); */
-  background-color:var(--bgcolor1) ;
-  background-image: url('src/assets/images/bg4.jpg');
-  background-size: cover;
-  height: calc(100% - 100px);
-  /* width: 100%; */
-  padding-top: 100px;
-  padding-left: 100px;
-  position: relative;
-  color:var(--paracolor);
+    
+    background: linear-gradient(115deg, var(--bgcolor1) 50%, transparent 100%);
+    height: calc(100% - 100px);
+    padding-top: 100px;
+    padding-left: 100px;
+    position: relative;
+    color:var(--paracolor);
 }
 .imgback{
     height: 100%;
     width: 100%;
     z-index: -1;
-    /* background-image: url('src/assets/images/clavier.jpg'); */
+    background-color:var(--bgcolor1) ;
+    /* background-image: url('src/assets/images/bg4.jpg'); */
+     background-image: url('src/assets/images/clavier.jpg');
     /* background-image: url('src/assets/images/bg11.jpg'); */
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     position: absolute;
     top:0;
     left:0;
