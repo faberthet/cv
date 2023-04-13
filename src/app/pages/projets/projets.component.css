@@ -4,27 +4,25 @@
     display: flex;
     /* align-items: center; */
 }
-.projectsContent{
+/* .projectsContent{
     width: 100%;
-    min-height: calc(100% - 3rem ); /* - .radio height - .projet padding top */
+    min-height: calc(100% - 3rem );  - .radio height - .projet padding top
     display: flex;
     flex-wrap:wrap;
-    /* justify-content:space-evenly; */
-justify-content: space-between;
-   /* padding-top: 5px; */
-   
+    justify-content: space-between;
+} */
+.projectsContent{
+  width: 100%;
+  min-height: calc(100% - 3rem - 10px ); /* - .radio height - .projet padding top - radio margin-bottom */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 .projet{
-    width: 32%;
-    height: 335px;
-    /* background-color: rgb(43, 90, 74); */
-    /* background: linear-gradient(180deg, var(--bgcolor1) 50%, var(--bgcolor2) 100%); */
     background-color: var(--bgcolor1);
-    /* margin: 2px; */
     border-radius: 15px;
-    margin-top: 10px;
     position: relative;
-    border: solid 3px var(--bgcolor1) ;
+    max-height: 340px; /* << pour le cas ou il y a max 3 éléments >>  ou if - de 4 elements: max-height: 50%;*/
 }
 
 .radio{
@@ -36,6 +34,7 @@ justify-content: space-between;
     /* width: 100%; */
     height: 3rem;
     border-radius: 15px;
+    margin-bottom: 10px ;
 }
 .choice{
     margin-right: 20px;

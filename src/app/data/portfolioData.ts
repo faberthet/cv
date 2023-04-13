@@ -5,7 +5,7 @@ export const Projects: Project[] = [
         name:'Memory game',
         languages:['angular','typescript', 'css'],
         source: 'https://github.com/faberthet/memory-game',
-        info: 'Jeu de mémoire où il faut retourner des cartes pour faire des paires. Un de mes tout derniers projets Angular.',
+        info: 'Jeu de mémoire où il faut retourner des cartes pour faire des paires.',
         picture:'memogame.jpg',
         demo:'',
         website:'https://d2d4fv7uemrjwq.cloudfront.net/'
