@@ -22,7 +22,7 @@
     background-color: var(--bgcolor1);
     border-radius: 15px;
     position: relative;
-    max-height: 340px; /* << pour le cas ou il y a max 3 éléments >>  ou if - de 4 elements: max-height: 50%;*/
+    height:340px ;
 }
 
 .radio{
