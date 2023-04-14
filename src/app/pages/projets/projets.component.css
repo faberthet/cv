@@ -89,11 +89,8 @@
 }
  */
 @media only screen and (max-width: 675px) {
-    .projet{
-   width: 48%;
-   
- }  
+  
  .projectsContent{
-    justify-content: space-around;
+    grid-template-columns: repeat(2, 1fr);
  }
 }
