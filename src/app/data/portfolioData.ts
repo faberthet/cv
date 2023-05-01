@@ -34,7 +34,7 @@ export const Projects: Project[] = [
         source: 'https://github.com/faberthet/bjv-backend',
         info: 'Partie création d\'articles du site web Breizh Jardin vivant',
         picture:'bjvcrud.jpg',
-        demo:'https://youtu.be/EJsv0Or4Adg',
+        demo:'https://youtu.be/zSvXzROo6Jo',
         website:''
     },
     {
