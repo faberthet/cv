@@ -24,7 +24,7 @@ export const Projects: Project[] = [
         languages:['angular','java','typescript', 'css'],
         source: 'https://github.com/faberthet/bjv-front-end',
         info: 'Mon tout premier projet Angular et Spring Boot. Site web pour l\'auto entreprise Breizh jardin vivant',
-        picture:'bjv.jpg',
+        picture:'bjv2.jpg',
         demo:'',//'https://youtu.be/58JBlvOXVvs',
         website:'https://breizh-jardinvivant.com/'
     },
