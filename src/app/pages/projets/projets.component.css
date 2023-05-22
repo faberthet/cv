@@ -13,7 +13,7 @@
 } */
 .projectsContent{
   width: 100%;
-  min-height: calc(100% - 3rem - 10px ); /* - .radio height - .projet padding top - radio margin-bottom */
+  min-height: calc(740px - 3rem - 10px ); /* - .radio height - .projet padding top - radio margin-bottom */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;

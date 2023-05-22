@@ -1,6 +1,6 @@
 .knowContent{
     width: 100%;
-    height: 100%;
+    height: 740px;
     display: grid;
     grid-template-columns: 42% 1fr 1fr;
     grid-template-rows: 72% 28%;
@@ -53,6 +53,9 @@
    .knowContent{
     display: block;
     height: min-content;
+  }
+  .autres,.diplomes,.languages{
+    margin-bottom: 5px;
   }
 
 }

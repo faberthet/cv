@@ -58,14 +58,15 @@ mat-sidenav{
 mat-sidenav-content{
     overflow: hidden;
     /* height: calc(100vh - 98px); */
-    height: 750px;
+    min-height: 740px;
     /* background-color: rgb(226, 226, 226); */
     margin-left: 260px !important; /* witdh nav + 10px */
     /* padding: 10px;
     padding-left: 10px; */
     border-radius: 10px;
-    min-height: 700px;
+    /* min-height: 100%; */
 }
+
 
 
 .avatar{
@@ -124,7 +125,8 @@ mat-divider{
 
     mat-sidenav-content{
         margin-left: 0 !important;
-        height:auto;
+     
+        
     }
 
     .toolbar{
@@ -133,6 +135,7 @@ mat-divider{
     }
     mat-sidenav-container{
          margin-top: 10px;
+         margin-bottom: 10px;
     }
 
 }

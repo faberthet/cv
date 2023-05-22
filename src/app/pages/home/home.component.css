@@ -4,7 +4,8 @@
     padding: 0 50px;
     
     background: linear-gradient(115deg, var(--bgcolor1) 50%, transparent 100%);
-    height: calc(100% - 100px);
+    /* height: calc(100% - 100px); */
+    height: calc(740px - 100px);
     padding-top: 100px;
     padding-left: 100px;
     position: relative;
