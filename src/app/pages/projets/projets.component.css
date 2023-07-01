@@ -1,5 +1,6 @@
 .proj{
   margin-left: 10px;
+  /* background-color: var(--bgcolor1); */
 }
 .flexcontainer{
     width: 100%;
@@ -23,7 +24,7 @@
   
 }
 .projet{
-    background-color: var(--bgcolor1);
+    background-color: var(--bgcolor2);
     border-radius: 15px;
     position: relative;
     height:336px ;
@@ -31,7 +32,7 @@
 
 .radio{
     display: flex;
-    background-color:var(--bgcolor1);
+    background-color:var(--bgcolor2);
     color: var(--paracolor);
     justify-content: center;
     align-items: center;
