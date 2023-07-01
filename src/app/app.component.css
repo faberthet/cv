@@ -34,7 +34,7 @@ mat-sidenav-container{
    width: 1200px;
 margin: 0 auto;
 
-border-radius: 10px;
+/* border-radius: 10px; */
 position: relative;
 }
 
@@ -46,10 +46,11 @@ mat-sidenav{
     /* background-image: url('src/assets/images/bg4.jpg');  */
     background-size: cover;
      /*background-position: bottom;*/
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 10px;
     border-right:none;
     color: var(--paracolor);
+    /* position: fixed; */
 }
 .sidenav-icon{
     color:var(--iconcolor1);
@@ -59,11 +60,12 @@ mat-sidenav-content{
     overflow: hidden;
     /* height: calc(100vh - 98px); */
     min-height: 740px;
+    /* min-height: 100vh; */
     /* background-color: rgb(226, 226, 226); */
-    margin-left: 260px !important; /* witdh nav + 10px */
+    /* margin-left: 260px !important; witdh nav + 10px */
     /* padding: 10px;
     padding-left: 10px; */
-    border-radius: 10px;
+    /* border-radius: 10px; */
     /* min-height: 100%; */
 }
 

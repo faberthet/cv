@@ -2,6 +2,15 @@ import { Project } from "../models/project";
 
 export const Projects: Project[] = [
     {
+        name:'Breizh jardin vivant',
+        languages:['angular','java','typescript', 'css'],
+        source: 'https://github.com/faberthet/bjv-front-end',
+        info: 'Mon tout premier projet Angular et Spring Boot. Site web pour l\'auto entreprise Breizh jardin vivant',
+        picture:'bjv2.jpg',
+        demo:'',//'https://youtu.be/58JBlvOXVvs',
+        website:'https://breizh-jardinvivant.com/'
+    },
+    {
         name:'Memory game',
         languages:['angular','typescript', 'css'],
         source: 'https://github.com/faberthet/memory-game',
@@ -20,16 +29,7 @@ export const Projects: Project[] = [
         website:'https://d2wu6xv7elibw8.cloudfront.net/'
     },
     {
-        name:'Breizh jardin vivant',
-        languages:['angular','java','typescript', 'css'],
-        source: 'https://github.com/faberthet/bjv-front-end',
-        info: 'Mon tout premier projet Angular et Spring Boot. Site web pour l\'auto entreprise Breizh jardin vivant',
-        picture:'bjv2.jpg',
-        demo:'',//'https://youtu.be/58JBlvOXVvs',
-        website:'https://breizh-jardinvivant.com/'
-    },
-    {
-        name:'BJV CRUD',
+        name:'Création d\'articles',
         languages:['angular','java','typescript', 'css'],
         source: 'https://github.com/faberthet/bjv-backend',
         info: 'Partie création d\'articles du site web Breizh Jardin vivant',

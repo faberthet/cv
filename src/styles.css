@@ -7,9 +7,11 @@
     --bgcolor1:#0b293d;/* #303030;*/
     --bgcolor2: #114568;/*#134b70;*/
     --bgcolor3: #104364; /*#104364; */
+
     --fontcolor1: #00adad;
     --fontcolor2: #00adad;;
     --fontcolor3: #00adad;;
+
     --paracolor:#c6c6c6;
     --iconcolor1:#00adad;
     --iconcolor2:#00adad;
@@ -18,6 +20,16 @@
     --buttonbgcolor2:#008888;
     --buttoncolor:#c6c6c6;
     --titleprojcolor:white;
+
+
+    /* --bgcolor1:#c9c9c9;
+    --bgcolor2: #e7e7e7;
+    --bgcolor3: #104364;
+
+    --fontcolor1: #000000;
+    --fontcolor2: rgb(46, 46, 46);;
+    --fontcolor3: #777777;;
+    --paracolor:#000000; */
   }
   /* exemple: color: var(--main-bg1)*; */
   

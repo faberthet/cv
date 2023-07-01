@@ -1,3 +1,8 @@
+.comp{
+  margin-left: 10px;
+  /* height: 750px */
+  
+}
 .knowContent{
     width: 100%;
     height: 740px;
@@ -8,6 +13,9 @@
       "L D D"
       "A A H";
     gap: 10px;
+    /* overflow:auto ; */
+    /* margin-left: 10px; */
+ 
 }
 .knowContent>div{
      background-color: var(--bgcolor1);
@@ -18,21 +26,22 @@
 }
 .languages{
     grid-area: L;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 10px;
     padding-top: 1.1rem;
 }
 .diplomes{
     grid-area: D;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 10px;
     padding-top: 1.1rem;
    
 
 }
 .autres{
+  
     grid-area: A;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 10px;
     /* justify-content: ; */
     padding-top: 1.1rem; 
@@ -42,7 +51,7 @@
 
 .hobbies{
     grid-area: H;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 10px;
     padding-top: 1.1rem;
     padding-left:20px ;
