@@ -21,15 +21,31 @@
     --buttoncolor:#c6c6c6;
     --titleprojcolor:white;
 
+    --bgcolor1:#191923;
+    /* --bgcolor2: #20202a; */
+    --bgcolor3: #2d2d3a; 
+    --bgcolor2: #2d2d3a;
+    /* --bgcolor3: #2d2d3a;  */
+    --buttoncolor:#000000;
 
-    /* --bgcolor1:#c9c9c9;
-    --bgcolor2: #e7e7e7;
-    --bgcolor3: #104364;
+    --fontcolor1: #ffffff;
+    --fontcolor2: #c7c7c7;;
+    --fontcolor3: #00adad;;
 
-    --fontcolor1: #000000;
-    --fontcolor2: rgb(46, 46, 46);;
-    --fontcolor3: #777777;;
-    --paracolor:#000000; */
+    --buttonbgcolor:#fff9a3;
+    --buttonbgcolor2:#008888;
+
+    --iconcolor1:#fff9a3;
+    --iconcolor2:#fff9a3;
+
+    /*--fontcolor1: #ffffff;
+    --fontcolor2: #91cefc;;
+    --fontcolor3: #5d97c7;;
+    --iconcolor1:#5d97c7;;;
+    --iconcolor2:#5d97c7;
+
+    --buttonbgcolor:#91cefc;
+    --buttonbgcolor2:#008888; */
   }
   /* exemple: color: var(--main-bg1)*; */
   
