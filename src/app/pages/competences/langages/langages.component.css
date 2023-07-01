@@ -61,7 +61,8 @@ li{
 }
  h3{
     margin-top: 0;
-    color:var(--fontcolor3)
+    color:var(--fontcolor3);
+    
 } 
  @media only screen and (max-width: 615px) {
      .fra{

@@ -62,7 +62,7 @@
 h1{
     width: max-content;
     margin: 10px auto;
-    color: var(--fontcolor3);
+    color: var(--fontcolor1);
 }
 .icotem{
     margin-right:  40px;
@@ -97,5 +97,6 @@ h1{
         text-decoration: inherit;
     }
     fa-icon{
-        color: var(--fontcolor3);
+        /* color: var(--fontcolor3); */
+        color: var(--iconcolor2);;
     }

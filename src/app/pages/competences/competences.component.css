@@ -23,6 +23,7 @@
     background: radial-gradient(var(--bgcolor2),var(--bgcolor1)); */
     /* border: solid 2px black; */
     color: var(--paracolor);
+   
 }
 .languages{
     grid-area: L;

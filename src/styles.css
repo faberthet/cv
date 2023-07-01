@@ -30,14 +30,23 @@
 
     --fontcolor1: #ffffff;
     --fontcolor2: #c7c7c7;;
-    --fontcolor3: #00adad;;
+    --fontcolor3: #9b9bc0;;
 
     --buttonbgcolor:#fff9a3;
     --buttonbgcolor2:#008888;
-
-    --iconcolor1:#fff9a3;
+    --buttonbgcolor:#9b9bc0;
+    --buttonbgcolor2:#b2b2e0;
+    --iconcolor1:#9b9bc0;
     --iconcolor2:#9b9bc0;
-
+    /* --buttonbgcolor:lightgoldenrodyellow;
+    --buttonbgcolor2:#b2b2e0;
+color:;
+    
+    --iconcolor1:lightgoldenrodyellow;
+    --iconcolor2:lightgoldenrodyellow;
+    --fontcolor1: #ffffff;
+    --fontcolor2: #c7c7c7;;
+    --fontcolor3: lemonchiffon;; */
     /*--fontcolor1: #ffffff;
     --fontcolor2: #91cefc;;
     --fontcolor3: #5d97c7;;
