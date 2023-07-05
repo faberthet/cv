@@ -23,7 +23,7 @@ export const Projects: Project[] = [
         name:'Rennes météo',
         languages:['angular','typescript', 'css'],
         source: 'https://github.com/faberthet/meteo',
-        info: 'Météo à Rennes sur 7 jours. Avec l\'api https://open-meteo.com/',
+        info: 'Météo 7 jours. Avec l\'api https://open-meteo.com/',
         picture:'meteo.jpg',
         demo:'',
         website:'https://d2wu6xv7elibw8.cloudfront.net/'
