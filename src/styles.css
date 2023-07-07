@@ -12,7 +12,7 @@
     --fontcolor2: #00adad;;
     --fontcolor3: #00adad;;
 
-    --paracolor:#c6c6c6;
+    --paracolor:#e9e9e9;
     --iconcolor1:#00adad;
     --iconcolor2:#00adad;
     --customcolor1:#155580; /*bgcolor2 en un peu plus clair*/
@@ -29,7 +29,7 @@
     --buttoncolor:#000000;
     --customcolor1:#4e4e63;
     --fontcolor1: #ffffff;
-    --fontcolor2: #c7c7c7;;
+    --fontcolor2: #e7e7e7;;
     --fontcolor3: #9b9bc0;;
 
     --buttonbgcolor:#fff9a3;
@@ -38,23 +38,7 @@
     --buttonbgcolor2:#b2b2e0;
     --iconcolor1:#9b9bc0;
     --iconcolor2:#9b9bc0;
-    /* --buttonbgcolor:lightgoldenrodyellow;
-    --buttonbgcolor2:#b2b2e0;
-color:;
-    
-    --iconcolor1:lightgoldenrodyellow;
-    --iconcolor2:lightgoldenrodyellow;
-    --fontcolor1: #ffffff;
-    --fontcolor2: #c7c7c7;;
-    --fontcolor3: lemonchiffon;; */
-    /*--fontcolor1: #ffffff;
-    --fontcolor2: #91cefc;;
-    --fontcolor3: #5d97c7;;
-    --iconcolor1:#5d97c7;;;
-    --iconcolor2:#5d97c7;
-
-    --buttonbgcolor:#91cefc;
-    --buttonbgcolor2:#008888; */
+ 
   }
   /* exemple: color: var(--main-bg1)*; */
   
@@ -62,8 +46,10 @@ color:;
 
 html, body{ min-height: 100vh; width: 100%} 
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
-     /* background-color: #5e5e5e; */
-     background-image: url('src/assets/images/bg10.jpg');
+    background: radial-gradient(#b3b3e0,#39394b);
+    /* background: radial-gradient(#191923,#babae7 ); */
+     /* background-color: #191923; */
+     /* background-image: url('src/assets/images/bg2.jpg'); */
      background-size: cover;
      /*background-position: bottom;*/
      /* background-color: #000000; */

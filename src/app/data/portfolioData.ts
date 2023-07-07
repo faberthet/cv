@@ -20,7 +20,7 @@ export const Projects: Project[] = [
         website:'https://d2d4fv7uemrjwq.cloudfront.net/'
     },
     {
-        name:'Rennes météo',
+        name:'Météo 7 jours',
         languages:['angular','typescript', 'css'],
         source: 'https://github.com/faberthet/meteo',
         info: 'Météo 7 jours. Avec l\'api https://open-meteo.com/',
@@ -47,7 +47,7 @@ export const Projects: Project[] = [
         website:''
     },
     {
-        name:'Mon CV',
+        name:'CV',
         languages:['angular','typescript', 'css'],
         source: 'https://github.com/faberthet/cv',
         info: 'Mon cv développé avec Angular',

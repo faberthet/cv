@@ -24,7 +24,7 @@
   
 }
 .projet{
-    background-color: var(--bgcolor2);
+    background-color: var(--bgcolor1);
     border-radius: 15px;
     position: relative;
     height:336px ;
@@ -32,7 +32,7 @@
 
 .radio{
     display: flex;
-    background-color:var(--bgcolor2);
+    background-color:var(--bgcolor1);
     color: var(--paracolor);
     justify-content: center;
     align-items: center;
